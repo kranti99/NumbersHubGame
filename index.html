@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Play a collection of fun number puzzle games in Number Hub, including 2048, number merging, sliding puzzles and number-link challenges.">
+  <meta name="theme-color" content="#10102f">
+  <title>Number Hub – All Number Games in One Place</title>
+  <style>
+    :root{--bg:#0d102b;--panel:#171b43;--text:#f7f8ff;--muted:#b8bfdf;--cyan:#24c7ed;--purple:#7655f6;--pink:#ed3981;--line:rgba(255,255,255,.13)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% 8%,#25216c 0,transparent 30%),radial-gradient(circle at 0 55%,#123d69 0,transparent 28%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+    header{border-bottom:1px solid var(--line);background:rgba(12,14,40,.86);backdrop-filter:blur(12px);position:sticky;top:0;z-index:10}
+    .nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.35rem;font-weight:850;letter-spacing:-.04em}.brand span{color:var(--cyan)}nav{display:flex;gap:22px;align-items:center;flex-wrap:wrap}nav a{font-size:.94rem;color:var(--muted)}nav a:hover,nav a.active{color:white}
+    .hero{padding:88px 0 70px;text-align:center}.eyebrow{display:inline-block;padding:6px 13px;border:1px solid rgba(36,199,237,.4);border-radius:30px;color:#80e8ff;background:rgba(36,199,237,.09);font-size:.82rem;font-weight:750;letter-spacing:.08em;text-transform:uppercase}
+    h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.04;letter-spacing:-.065em;margin:22px auto 18px;max-width:850px}h1 em{font-style:normal;background:linear-gradient(90deg,#26d1ef,#a18aff,#ff5b9b);background-clip:text;color:transparent}
+    .lead{max-width:680px;margin:0 auto;color:var(--muted);font-size:1.15rem}.actions{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 21px;border-radius:14px;font-weight:800;background:linear-gradient(100deg,var(--cyan),#6574ff);color:#07112b;box-shadow:0 10px 30px #1b8cba35}.btn.secondary{background:rgba(255,255,255,.07);border:1px solid var(--line);color:white;box-shadow:none}
+    .section{padding:48px 0 68px}.section-head{text-align:center;margin-bottom:28px}.section-head h2{font-size:clamp(1.8rem,4vw,2.6rem);margin:0 0 8px;letter-spacing:-.04em}.section-head p{color:var(--muted);margin:0}
+    .games{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.game{border:1px solid var(--line);border-radius:22px;padding:22px;background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.035));min-height:210px}.game .symbol{font-size:2.2rem}.game h3{margin:12px 0 5px;font-size:1.18rem}.game p{color:var(--muted);font-size:.94rem;margin:0}
+    .feature{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;margin-top:30px}.feature-box{padding:28px;border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.055)}.feature-box h2{margin-top:0}.feature-box p,.feature-box li{color:var(--muted)}.feature-box ul{padding-left:20px}
+    footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}.footlinks{display:flex;gap:18px;flex-wrap:wrap}.foot a:hover{color:white}
+    @media(max-width:800px){.games{grid-template-columns:repeat(2,1fr)}.feature{grid-template-columns:1fr}.hero{padding:65px 0 48px}}
+    @media(max-width:520px){.nav{padding:14px 0;align-items:flex-start;flex-direction:column;gap:8px}nav{gap:15px}.games{grid-template-columns:1fr}.game{min-height:0}.foot{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="index.html">Number<span>Hub</span></a>
+  <nav aria-label="Main navigation"><a class="active" href="index.html">Home</a><a href="#games">Games</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+</div></header>
+<main>
+  <section class="hero wrap">
+    <span class="eyebrow">Play • Challenge • Improve</span>
+    <h1>All your favorite <em>number games</em>, together.</h1>
+    <p class="lead">Welcome to Number Hub — a collection of number puzzles, merging challenges and brain-teasing games. Pick a game, make your move and try to beat your best score.</p>
+    <div class="actions"><a class="btn" href="#games">Explore the games</a><a class="btn secondary" href="support.html">Get help</a></div>
+  </section>
+  <section class="section wrap" id="games">
+    <div class="section-head"><h2>Choose your challenge</h2><p>One hub. Different ways to play with numbers.</p></div>
+    <div class="games">
+      <article class="game"><div class="symbol">🧊</div><h3>M2 Blocks</h3><p>Drop blocks, combine matching values and build bigger numbers.</p></article>
+      <article class="game"><div class="symbol">🔢</div><h3>2048 Classic</h3><p>Slide matching tiles, merge numbers and aim for the 2048 tile.</p></article>
+      <article class="game"><div class="symbol">🧩</div><h3>Three’s Style</h3><p>Plan your moves in a sliding number puzzle.</p></article>
+      <article class="game"><div class="symbol">🌿</div><h3>2248 Number Link</h3><p>Connect matching numbers and create higher-value tiles.</p></article>
+    </div>
+    <div class="feature">
+      <div class="feature-box"><h2>A game for every mood</h2><p>Switch between quick number challenges and more thoughtful puzzle sessions. Each game has its own play area and controls.</p></div>
+      <div class="feature-box"><h2>Simple to start</h2><ul><li>Choose a game from the home screen.</li><li>Learn the rules on that game's screen.</li><li>Play, improve your score and try again.</li></ul></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><div>© <span id="year">2026</span> Number Hub. All rights reserved.</div><div class="footlinks"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></div></div></footer>
+</body></html>
