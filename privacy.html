@@ -1,50 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#10102f">
-  <meta name="description" content="Read the Number Hub privacy policy and learn how information is handled when you use the app.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10102f">
+  <meta name="description" content="Number Hub Privacy Policy. Learn how gameplay data is stored locally and how Google AdMob may process information to provide ads.">
   <title>Privacy Policy – Number Hub</title>
   <style>
-    :root{--bg:#0d102b;--panel:#171b43;--text:#f7f8ff;--muted:#b8bfdf;--cyan:#24c7ed;--line:rgba(255,255,255,.13)}
-    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 8%,#25216c 0,transparent 30%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.7}a{color:#80e8ff;text-decoration:none}.wrap{width:min(900px,92%);margin:auto}
-    header{border-bottom:1px solid var(--line);background:rgba(12,14,40,.9)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.35rem;font-weight:850;color:white;letter-spacing:-.04em}.brand span{color:var(--cyan)}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--muted);font-size:.94rem}nav a:hover,nav a.active{color:white}
-    main{padding:55px 0 75px}.eyebrow{color:#80e8ff;font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em}h1{font-size:clamp(2.2rem,6vw,3.5rem);letter-spacing:-.05em;line-height:1.1;margin:10px 0} .updated{color:var(--muted);font-size:.92rem}.notice{border:1px solid #e6b84b66;background:#e6b84b12;border-radius:14px;padding:15px 18px;margin:24px 0;color:#ffe6a6}
-    article{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,34px)}h2{font-size:1.28rem;margin:28px 0 7px}p,li{color:#d0d4e9}ul{padding-left:22px}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    :root{--bg:#0d102b;--text:#f7f8ff;--muted:#b8bfdf;--cyan:#24c7ed;--line:rgba(255,255,255,.13)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 85% 8%,#25216c 0,transparent 30%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.7}
+    a{color:#80e8ff;text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(900px,92%);margin:auto}
+    header{border-bottom:1px solid var(--line);background:rgba(12,14,40,.9)}
+    .nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-size:1.35rem;font-weight:850;color:white;letter-spacing:-.04em}.brand span{color:var(--cyan)}
+    nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:var(--muted);font-size:.94rem}nav a.active,nav a:hover{color:white}
+    main{padding:55px 0 75px}.eyebrow{color:#80e8ff;font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em}
+    h1{font-size:clamp(2.2rem,6vw,3.5rem);letter-spacing:-.05em;line-height:1.1;margin:10px 0}
+    .updated{color:var(--muted);font-size:.92rem}.intro{color:#d0d4e9;font-size:1.05rem}
+    article{background:rgba(255,255,255,.045);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,34px)}
+    h2{font-size:1.25rem;margin:28px 0 7px}h2:first-child{margin-top:0}p,li{color:#d0d4e9}ul{padding-left:22px}
+    .callout{border:1px solid rgba(36,199,237,.3);background:rgba(36,199,237,.07);border-radius:14px;padding:15px 18px;margin:22px 0;color:#dceeff}
+    footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem}
+    .foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
     @media(max-width:520px){.nav{padding:14px 0;align-items:flex-start;flex-direction:column;gap:8px}nav{gap:15px}.foot{flex-direction:column}}
   </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="index.html">Number<span>Hub</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#games">Games</a><a href="support.html">Support</a><a class="active" href="privacy.html">Privacy</a></nav></div></header>
+<header><div class="wrap nav">
+  <a class="brand" href="index.html">Number<span>Hub</span></a>
+  <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#games">Games</a><a href="support.html">Support</a><a class="active" href="privacy.html">Privacy</a></nav>
+</div></header>
+
 <main class="wrap">
-  <span class="eyebrow">Your privacy matters</span><h1>Privacy Policy</h1>
-  <p class="updated">Effective date: [ADD DATE]</p>
-  <div class="notice"><strong>Before publishing:</strong> This is a starter template. Replace every bracketed instruction and make sure it accurately describes the app, SDKs, advertising, analytics, and data practices in the released version. Do not publish unverified statements.</div>
+  <span class="eyebrow">Your privacy matters</span>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective date: November 24, 2026</p>
+  <p class="intro">This Privacy Policy explains how Number Hub (“we”, “us”, or “our”) handles information when you use the Number Hub mobile application (“App”). It covers the App's local game-progress storage and its use of Google AdMob to display advertisements.</p>
+
   <article>
-    <p>This Privacy Policy explains how <strong>[DEVELOPER / COMPANY NAME]</strong> (“we”, “us”, or “our”) handles information when you use the Number Hub mobile application (“App”).</p>
-    <h2>1. Information we collect</h2>
-    <p>Update this section to list the information the App and its integrated services actually collect. For example, explain whether the App collects or processes:</p>
-    <ul><li>Gameplay information, such as scores, progress, settings, or achievements.</li><li>Device and diagnostic information, such as device model, operating system, app version, crash reports, or performance data.</li><li>Identifiers or approximate location, if collected by advertising, analytics, or other SDKs.</li><li>Information you provide when contacting support, such as your email address and message.</li></ul>
-    <p><strong>Actual collection practices:</strong> [DESCRIBE WHAT YOUR APP COLLECTS. If no personal information is collected, state that only after verifying the app and all third-party SDKs.]</p>
-    <h2>2. How information is used</h2>
-    <p>[DESCRIBE the actual purposes, such as operating and maintaining the App, saving progress, responding to support requests, preventing abuse, measuring performance, or showing ads. Remove any purpose that does not apply.]</p>
-    <h2>3. Advertising and analytics</h2>
-    <p>[LIST each advertising and analytics provider used in the app, such as Google AdMob, Google Analytics for Firebase, or other SDKs. Link to each provider's privacy policy and explain what data it may process. If the app does not use these services, say so only after verification.]</p>
-    <h2>4. Sharing of information</h2>
-    <p>[Explain whether information is shared with service providers, advertising partners, analytics providers, or when required by law. Identify relevant categories and purposes. Do not say “we never share data” if an SDK receives data.]</p>
-    <h2>5. Data storage and retention</h2>
-    <p>[Explain where information is stored, how long it is retained, and how users can request deletion. Include local device storage and cloud storage details if applicable.]</p>
-    <h2>6. Children's privacy</h2>
-    <p>[Describe the intended audience and the steps taken regarding children's data. If the App is directed to children or may be used by children, ensure its design, SDKs, ads, and disclosures comply with applicable child privacy laws and Google Play requirements.]</p>
-    <h2>7. Your choices and privacy rights</h2>
-    <p>Depending on your location, you may have rights to request access to, correction of, or deletion of personal information, or to object to certain processing. Contact us using the details below to make a request. [ADD any in-app privacy controls, consent choices, or opt-out instructions that apply.]</p>
-    <h2>8. Security</h2>
-    <p>We use [DESCRIBE REASONABLE SECURITY MEASURES ACTUALLY USED]. No method of electronic storage or transmission is guaranteed to be completely secure.</p>
-    <h2>9. Changes to this policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will post the updated version on this page and revise the effective date above.</p>
-    <h2>10. Contact us</h2>
-    <p>For questions or privacy requests, contact:</p>
-    <p><strong>[DEVELOPER / COMPANY NAME]</strong><br>Email: <a href="mailto:[YOUR-SUPPORT-EMAIL]">[YOUR-SUPPORT-EMAIL]</a><br>Website: <a href="index.html">Number Hub</a></p>
+    <h2>1. About Number Hub</h2>
+    <p>Number Hub is a collection of number-based puzzle games. The App does not require you to create an account or sign in to play. Based on the current app setup described for this policy, game scores, settings, and progress are stored locally on your device rather than in a Number Hub account or our own game-progress server.</p>
+
+    <h2>2. Information stored by the App</h2>
+    <p><strong>Game progress stored on your device:</strong> The App may store gameplay information such as scores, best scores, progress, and game settings in local storage on your device so that your game experience can continue between sessions. This information is not uploaded by the App to a Number Hub account or cloud game profile.</p>
+    <p><strong>Information you send to support:</strong> If you contact us, we will receive the information you choose to include in your message, such as your email address, device details, and a description of your question or problem. We use this information to respond to you and provide support.</p>
+    <p>We do not operate user registration, login, or account profiles in the current version of the App. We do not use a separate analytics service in the current setup described for this policy.</p>
+
+    <h2>3. Advertising and Google AdMob</h2>
+    <p>The App uses Google AdMob, an advertising service provided by Google, to display advertisements. The Google Mobile Ads SDK may automatically collect and share certain information from your device to deliver ads, measure advertising performance, help prevent fraud, and maintain the advertising service.</p>
+    <p>Depending on the SDK version, configuration, your device settings, and your choices, this information may include:</p>
+    <ul>
+      <li>Your device's IP address, which may be used to estimate general location.</li>
+      <li>Advertising identifiers and other device or app identifiers.</li>
+      <li>Interactions with the App and advertisements, such as app launches, taps, and video ad views.</li>
+      <li>Diagnostic and performance information, such as app launch time, stability, and SDK performance.</li>
+      <li>Information needed to select, deliver, limit, and measure advertisements.</li>
+    </ul>
+    <p>Google may use information processed through AdMob for advertising, analytics related to advertising, fraud prevention, and service operation. Google processes this information under its own privacy terms. The Google Mobile Ads SDK states that data it collects is encrypted in transit using TLS.</p>
+    <p>Learn more in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and Google's <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Google Mobile Ads SDK data disclosure</a>.</p>
+
+    <h2>4. Advertising choices</h2>
+    <p>You may be able to reset or delete your Android advertising ID, or manage advertising privacy settings, through your device's Android settings. The advertisements you see may depend on your location, applicable consent requirements, device settings, and Google's advertising controls. Where required, Google consent tools may be presented to ask for your choices about ads and the use of information.</p>
+    <p>Changing or deleting an advertising ID does not necessarily stop all advertising or all data processing by the advertising SDK.</p>
+
+    <h2>5. How information is used</h2>
+    <p>We use locally stored gameplay information to provide basic game functionality and preserve your progress on your device. We use information you send to support to respond to your request. Google AdMob processes information as described above to provide and maintain advertising services. We do not use a separate analytics product in the current app setup described for this policy.</p>
+
+    <h2>6. How information is shared</h2>
+    <p>We do not sell your personal information. Gameplay information kept only in the App's local storage is not shared by us with a game-progress server. Information may be processed or shared with Google through the AdMob SDK for advertising and related purposes described in Section 3. If you contact support, your message is handled by the email or support provider you use to send it.</p>
+
+    <h2>7. Data retention and deletion</h2>
+    <p>Gameplay data stored locally remains on your device until it is deleted by the App, you clear the App's storage or data, or you uninstall the App. Uninstalling the App or clearing its storage may permanently remove locally saved scores and progress.</p>
+    <p>We retain support correspondence only for as long as reasonably necessary to respond to and manage the request, meet legitimate operational needs, or comply with legal obligations. Google determines retention for information processed through AdMob under its own policies and settings.</p>
+
+    <h2>8. Children's privacy</h2>
+    <p>Number Hub is not specifically designed to collect personal information from children. The App does not provide user accounts. Advertising content and data handling may be affected by the app's target-audience settings, applicable law, and the configuration of AdMob. If you intend to make the App available to children or include children in its target audience, you must configure AdMob and the App to meet all applicable child-protection, families, consent, and advertising requirements before release.</p>
+    <p>If you believe a child has provided personal information to us through a support message, please contact us so we can review the request.</p>
+
+    <h2>9. Security</h2>
+    <p>We take reasonable steps appropriate to the App's operation to protect information we handle. Gameplay information is stored locally on your device and its security may depend on your device's own security settings. Google states that information collected by the Google Mobile Ads SDK is encrypted in transit using TLS. No method of storage or transmission is completely secure.</p>
+
+    <h2>10. Your privacy rights</h2>
+    <p>Depending on where you live, you may have rights to request access to, correction of, or deletion of personal information, or to object to certain processing. For information processed by Google through AdMob, you may also use Google's privacy controls and the controls available on your device. Contact us using the details in Section 12 for requests relating to information we handle directly.</p>
+
+    <h2>11. Changes to this Privacy Policy</h2>
+    <p>We may update this Privacy Policy when the App, our services, legal requirements, or advertising integrations change. We will publish the updated policy on this page and change the effective date above. Please review this page periodically.</p>
+
+    <h2>12. Contact us</h2>
+    <p>If you have questions about this Privacy Policy or a privacy request, contact:</p>
+    <p><strong>Number Hub Support</strong><br>Email: <a href="mailto:REPLACE-WITH-YOUR-SUPPORT-EMAIL">REPLACE-WITH-YOUR-SUPPORT-EMAIL</a></p>
+    <div class="callout"><strong>Developer action required:</strong> Replace the email address above with an active support email address before publishing this policy. Also review the policy against the exact AdMob SDK version, consent configuration, app permissions, and any other SDKs included in your released build.</div>
   </article>
 </main>
-<footer><div class="wrap foot"><span>© 2026 Number Hub. All rights reserved.</span><span><a href="index.html">Home</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></span></div></footer>
-</body></html>
+
+<footer><div class="wrap foot">
+  <span>© 2026 Number Hub. All rights reserved.</span>
+  <span><a href="index.html">Home</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></span>
+</div></footer>
+</body>
+</html>
